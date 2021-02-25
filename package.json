@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack-cli --mode development"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/MrMurdock11/chrome-extension-starter-pack/issues"
   },
-  "homepage": "https://github.com/MrMurdock11/chrome-extension-starter-pack#readme"
+  "homepage": "https://github.com/MrMurdock11/chrome-extension-starter-pack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
 }
